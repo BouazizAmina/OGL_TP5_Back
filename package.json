@@ -1,0 +1,14 @@
+{
+  "name": "tp5_back",
+  "version": "1.0.0",
+  "description": "BackEnd du TP5_OGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amina&wafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
