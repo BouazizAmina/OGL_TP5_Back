@@ -9,7 +9,7 @@ var corsOptions = {
   origin: "http://localhost:8083"
 };
 // const db = require("./models");
-// db.sequelize.sync();
+db.sequelize.sync();
 app.use(cors(corsOptions));
 // parse requests of content-type - application/json
 app.use(express.json());
